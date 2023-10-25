@@ -523,8 +523,8 @@ CPU : for each i in [0,256]: c[i] = a[i] * b[i] . Here, Each thread progresses a
 GPU : float32_times256 c,b,a; c = b * a; where c=b*a is one instruction, with three huge operands.
 
 ## Developed By:
-## Name: Challa Maheswar
-## Registger No: 212221040031
+## Name: kailash sm 
+## Registger No: 212222040068
 
 ## Result:
 i) The block.x is set as 1023 & 1024 and the elapsed time obtained on Host and GPU is compared.
